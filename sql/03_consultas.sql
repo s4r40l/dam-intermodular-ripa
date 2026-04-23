@@ -50,12 +50,12 @@ ORDER BY rp.fecha DESC;
 -- 3. FILTROS ÚTILES
 -- ============================================================
 
--- Precios de un producto en específico
+-- Precios de un producto en específico por identificador
 SELECT * FROM registro_precio
 WHERE id_producto = 1
 ORDER BY fecha DESC;
 
--- Precios de un producto en específico
+-- Precios de un producto en específico por nombre
 SELECT rp.*, p.nombre
 FROM registro_precio rp
 JOIN producto p ON rp.id_producto = p.id_producto
