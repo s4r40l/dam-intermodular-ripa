@@ -50,3 +50,21 @@ Cada vez que el usuario introduce un precio.
 
 - **Usuario (1) — (N) RegistroPrecio**
   Un usuario puede registrar muchos precios.
+
+  ---
+
+  # 3. 🧬 Diagrama Entidad–Relación (E/R)
+
+El diagrama E/R se encuentra en la carpeta:
+
+/docs/bbdd/MODELO ENTIDAD RELACIÓN RIPA.png
+
+Incluye:
+- Entidades  
+- Atributos  
+- Claves primarias  
+- Claves foráneas  
+- Relaciones  
+- Cardinalidades  
+
+---
