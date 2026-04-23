@@ -16,7 +16,7 @@ Representa un alimento cuyo precio se quiere registrar.
 - id_producto (PK)
 - nombre
 - categoria
-- unidad_medida *(kg, unidad, litro…)*
+- unidad_medida
 
 ### **2. Supermercado**
 Lugar donde se registra el precio.
@@ -28,6 +28,7 @@ Cada vez que el usuario introduce un precio.
 - id_registro (PK)
 - id_producto (FK)
 - id_supermercado (FK)
+- id_usuario (FK)
 - fecha
 - precio
 
@@ -35,6 +36,7 @@ Cada vez que el usuario introduce un precio.
 - id_usuario (PK)
 - nombre
 - email
+- contraseña
 
 ---
 
@@ -48,6 +50,3 @@ Cada vez que el usuario introduce un precio.
 
 - **Usuario (1) — (N) RegistroPrecio**
   Un usuario puede registrar muchos precios.
-
----
-
