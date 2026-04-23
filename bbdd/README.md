@@ -53,7 +53,7 @@ Cada vez que el usuario introduce un precio.
 
   ---
 
-  # 3. 🧬 Diagrama Entidad–Relación (E/R)
+  # 3. Diagrama Entidad–Relación (E/R)
 
 El diagrama E/R se encuentra en la carpeta:
 
@@ -66,5 +66,39 @@ Incluye:
 - Claves foráneas  
 - Relaciones  
 - Cardinalidades  
+
+---
+
+# 4. Modelo Relacional
+
+Transformación del E/R a tablas:
+
+PRODUCTO (
+id_producto PK,
+nombre,
+categoria,
+unidad_medida
+)
+
+SUPERMERCADO (
+id_supermercado PK,
+nombre
+)
+
+REGISTRO_PRECIO (
+id_registro PK,
+id_producto FK,
+id_supermercado FK,
+id_usuario FK,
+fecha,
+precio
+)
+
+USUARIO (
+id_usuario PK,
+nombre,
+email,
+contraseña
+)
 
 ---
