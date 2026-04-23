@@ -46,7 +46,7 @@ Cada vez que el usuario introduce un precio.
 - **Supermercado (1) — (N) RegistroPrecio**  
   Un supermercado puede tener muchos registros.
 
-- **Usuario (1) — (N) RegistroPrecio** *(opcional)*  
+- **Usuario (1) — (N) RegistroPrecio**
   Un usuario puede registrar muchos precios.
 
 ---
