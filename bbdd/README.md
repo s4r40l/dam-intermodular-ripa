@@ -102,3 +102,28 @@ contraseña
 )
 
 ---
+
+# 5. Scripts SQL del proyecto
+
+Los scripts SQL se encuentran en la carpeta:
+
+```
+/sql
+```
+
+y se ejecutan en el siguiente orden:
+
+---
+
+## **01_create_tables.sql**  
+Crea toda la estructura de la base de datos
+
+---
+
+## **02_insert_data.sql**  
+Inserta datos de ejemplo para pruebas
+
+---
+
+## **3️⃣ 03_queries.sql**  
+Incluye consultas útiles
