@@ -51,7 +51,7 @@ Cada vez que el usuario introduce un precio.
 - **Usuario (1) — (N) RegistroPrecio**
   Un usuario puede registrar muchos precios.
 
-  ---
+---
 
   # 3. Diagrama Entidad–Relación (E/R)
 
@@ -113,17 +113,11 @@ Los scripts SQL se encuentran en la carpeta:
 
 y se ejecutan en el siguiente orden:
 
----
-
 ## **01_create_tables.sql**  
 Crea toda la estructura de la base de datos
-
----
 
 ## **02_insert_data.sql**  
 Inserta datos de ejemplo para pruebas
 
----
-
-## **3️⃣ 03_queries.sql**  
+## **03_queries.sql**  
 Incluye consultas útiles
