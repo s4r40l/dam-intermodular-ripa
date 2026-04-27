@@ -1,1 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ripa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="esquema.xsd">
 
+    <producto id="1">
+        <nombre>Tomate</nombre>
+        <categoria>Verdura</categoria>
+        <unidad_medida>kg</unidad_medida>
+
+        <registros>
+            <registro>
+                <fecha>2024-99-99</fecha> <!-- Fecha inválida -->
+                <precio>-5</precio> <!-- Precio negativo -->
+                <supermercado></supermercado> <!-- Vacío -->
+            </registro>
+        </registros>
+    </producto>
+
+</ripa>
