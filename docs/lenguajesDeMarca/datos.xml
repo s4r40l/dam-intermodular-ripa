@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ripa>
+    <producto id="1">
+        <nombre>Tomate</nombre>
+        <categoria>Verdura</categoria>
+        <unidad_medida>kg</unidad_medida>
+
+        <registros>
+            <registro>
+                <fecha>2024-01-10</fecha>
+                <precio>1.20</precio>
+                <supermercado>Carrefour</supermercado>
+            </registro>
+            <registro>
+                <fecha>2024-01-11</fecha>
+                <precio>2.10</precio>
+                <supermercado>Carrefour</supermercado>
+            </registro>
+        </registros>
+    </producto>
+
+    <producto id="2">
+        <nombre>Leche Entera</nombre>
+        <categoria>Lácteos</categoria>
+        <unidad_medida>L</unidad_medida>
+
+        <registros>
+            <registro>
+                <fecha>2024-01-10</fecha>
+                <precio>0.95</precio>
+                <supermercado>Mercadona</supermercado>
+            </registro>
+        </registros>
+    </producto>
+</ripa>
