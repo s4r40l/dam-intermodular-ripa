@@ -38,15 +38,7 @@ El XML se valida mediante `esquema.xsd`, que define:
 
 La validación se ha realizado en **Visual Studio Code** usando la extensión **XML (Red Hat)**.
 
-## 5. Evidencias
-
-### ✔️ Validación correcta
-![Validación correcta](validacionCorrectaXML.png)
-
-### ❌ Validación incorrecta (opcional)
-![Validación incorrecta](validacionIncorrectaXML.png)
-
-## 6. Integración con el proyecto
+## 5. Integración con el proyecto
 Este XML actúa como **exportación estructurada de datos**, permitiendo representar productos y su histórico de precios para:
 - Intercambio de datos  
 - Documentación  
