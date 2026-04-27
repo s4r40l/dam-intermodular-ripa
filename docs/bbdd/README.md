@@ -57,7 +57,7 @@ Cada vez que el usuario introduce un precio.
 
 El diagrama E/R se encuentra en la carpeta:
 
-/docs/bbdd/MODELO ENTIDAD RELACIÓN RIPA.png
+/docs/bbdd/MODELO_ENTIDAD_RELACION_RIPA.png
 
 Incluye:
 - Entidades  
@@ -113,11 +113,11 @@ Los scripts SQL se encuentran en la carpeta:
 
 y se ejecutan en el siguiente orden:
 
-## **01_create_tables.sql**  
+## **01_creacion_tablas.sql**  
 Crea toda la estructura de la base de datos
 
-## **02_insert_data.sql**  
+## **02_insercion_data.sql**  
 Inserta datos de ejemplo para pruebas
 
-## **03_queries.sql**  
+## **03_consultas.sql**  
 Incluye consultas útiles
