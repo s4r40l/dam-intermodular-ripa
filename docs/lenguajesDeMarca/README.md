@@ -54,7 +54,13 @@ Ambas capturas están incluidas en `/docs/lenguajesDeMarca`.
 ---
 
 ## 3. ¿Cómo encaja dentro del proyecto?
+El XML inicial que se creó y validó con el XSD sirvió como base de aprendizaje para asegurar que la estructura, los tipos de datos y las relaciones estaban correctamente definidas. Ese archivo permitió comprobar que el esquema funcionaba y que la aplicación sería capaz de generar e interpretar XML válidos.
 
+Una vez validado el XML de ejemplo, se integró la funcionalidad real en la aplicación Java:
+
+Exportación: la aplicación genera un XML real con los datos de la base de datos, siguiendo exactamente el mismo XSD.
+
+Importación: la aplicación puede leer un XML válido y reconstruir productos, supermercados y registros en la base de datos.
 
 ---
 
