@@ -24,9 +24,9 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 
 ## **2. Diagrama simple de clases**
 
-======================
+=
       Producto
-======================
+=
 - id
 - nombre
 - categoria
