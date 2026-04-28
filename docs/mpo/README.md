@@ -24,6 +24,113 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 
 ## **2. Diagrama simple de clases**
 
+┌──────────────────────────────┐
+│          Producto             │
+├──────────────────────────────┤
+│ - id                          │
+│ - nombre                      │
+│ - categoria                   │
+│ - unidadMedida                │
+├──────────────────────────────┤
+│ + getId()                     │
+│ + getNombre()                 │
+│ + setNombre()                 │
+│ + toString()                  │
+└──────────────────────────────┘
+
+┌──────────────────────────────┐
+│        Supermercado           │
+├──────────────────────────────┤
+│ - id                          │
+│ - nombre                      │
+├──────────────────────────────┤
+│ + getId()                     │
+│ + getNombre()                 │
+│ + setNombre()                 │
+│ + toString()                  │
+└──────────────────────────────┘
+
+┌──────────────────────────────┐
+│       RegistroPrecio          │
+├──────────────────────────────┤
+│ - id                          │
+│ - fecha                       │
+│ - precio                      │
+│ - producto                    │
+│ - supermercado                │
+├──────────────────────────────┤
+│ + getFecha()                  │
+│ + getPrecio()                 │
+│ + toString()                  │
+└──────────────────────────────┘
+
+
+┌──────────────────────────────┐
+│         ProductoDAO           │
+├──────────────────────────────┤
+│ + create(Producto)            │
+│ + findAll()                   │
+│ + findById(int)               │
+│ + findByName(String)          │
+│ + delete(int)                 │
+└──────────────────────────────┘
+
+┌──────────────────────────────┐
+│      SupermercadoDAO          │
+├──────────────────────────────┤
+│ + create(Supermercado)        │
+│ + findAll()                   │
+│ + findById(int)               │
+│ + findByName(String)          │
+│ + delete(int)                 │
+└──────────────────────────────┘
+
+┌──────────────────────────────┐
+│     RegistroPrecioDAO         │
+├──────────────────────────────┤
+│ + create(RegistroPrecio)      │
+│ + findAll()                   │
+│ + findByProducto(int)         │
+│ + delete(int)                 │
+└──────────────────────────────┘
+
+
+┌──────────────────────────────┐
+│     ProductoController        │
+├──────────────────────────────┤
+│ + crearProductoConsola()      │
+│ + listarProductosConsola()    │
+│ + eliminarProductoConsola()   │
+└──────────────────────────────┘
+
+┌──────────────────────────────┐
+│   SupermercadoController      │
+├──────────────────────────────┤
+│ + crearSupermercadoConsola()  │
+│ + listarSupermercadosConsola()│
+│ + eliminarSupermercadoConsola()│
+└──────────────────────────────┘
+
+┌──────────────────────────────┐
+│   RegistroPrecioController    │
+├──────────────────────────────┤
+│ + crearRegistroConsola()      │
+│ + listarRegistrosConsola()    │
+│ + eliminarRegistroConsola()   │
+└──────────────────────────────┘
+
+
+┌──────────────────────────────┐
+│         XMLExporter           │
+├──────────────────────────────┤
+│ + exportarXML(String ruta)    │
+└──────────────────────────────┘
+
+┌──────────────────────────────┐
+│         XMLImporter           │
+├──────────────────────────────┤
+│ + importarXML(String ruta)    │
+└──────────────────────────────┘
 
 
 ---
