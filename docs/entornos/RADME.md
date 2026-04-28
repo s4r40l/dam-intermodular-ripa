@@ -1,78 +1,80 @@
 # Entornos de Desarrollo — Proyecto RIPA  
 Proyecto Intermodular · 1º DAM
 
-Este documento describe el entorno de desarrollo utilizado para el proyecto RIPA, siguiendo las directrices del Proyecto Intermodular. Incluye las herramientas empleadas, la estructura del repositorio, el flujo de trabajo y las instrucciones básicas para compilar y ejecutar la aplicación.
+Este documento explica **cómo se han cumplido los criterios de evaluación del módulo Entornos de Desarrollo** en el proyecto RIPA.
 
 ---
 
-## 1. Entorno de trabajo
+## 1. Estructura del repositorio
 
-### 1.1 Sistema operativo
-El proyecto se desarrolla en un entorno compatible con Java y MySQL/MariaDB.  
-Ejemplos válidos:
-- Windows 10/11  
-- macOS  
-- Linux (Ubuntu, Debian, etc.)
+El repositorio se ha organizado siguiendo una estructura clara, modular y coherente:
 
-### 1.2 Versión de Java
-
-
-### 1.3 IDE utilizado
-
-
-### 1.4 Base de datos
-- **MariaDB / MySQL**  
-- Scripts SQL incluidos en `/sql`  
-- Conexión mediante JDBC
-
-### 1.5 Control de versiones
-- **Git** como sistema de control de versiones  
-- **GitHub** como repositorio remoto del proyecto  
+- Separación de documentación por módulos en `/docs`
+- Código fuente (java) en `/src`
+- Scripts SQL en `/sql`
+- Archivos XML y XSD en `/xml`
+- README principal en la raíz del proyecto
+- README individual de cada módulo para especificaciones
 
 ---
 
-## 2. Justificación de las herramientas
+## 2. Uso de GitHub
 
-### IntelliJ / Eclipse / VS Code
+El repositorio cumple los requisitos del módulo:
 
-### MySQL / MariaDB
-- SGBD ampliamente utilizado  
-- Compatible con JDBC  
-- Ligero y fácil de instalar
-
-### Git + GitHub
-- Permite control de versiones  
-- Facilita la entrega del proyecto
+- Repositorio público correctamente configurado
+- Sin archivos innecesarios
+- Carpetas organizadas según el proyecto intermodular
+- Documentación incluida en `/docs`
 
 ---
 
-## 3. Estructura del proyecto
+## 3. Historial de commits
 
-La estructura del repositorio sigue las recomendaciones del Proyecto Intermodular:
+El historial de commits muestra:
 
-dam-intermodular-ripa/
-│
-├── docs/
-│   ├── bbdd/
-│   ├── entornos/
-│   ├── lenguajesDeMarca/
-│   ├── programacion/
-│   ├── sistemas/
-│   └── mpo/
-│
-├── sql/
-│
-├── xml/
-│
-├── src/
-│
-└── README.md
+- Commits frecuentes a lo largo del desarrollo
+- Mensajes descriptivos (algunos en inglés)
+- Evolución real del proyecto, no un único commit final
 
-## 4. Compilación y ejecución
+---
 
-## 5. Capturas del entorno
-Las capturas se añadirán al finalizar el proyecto:
-- IDE configurado  
-- Proyecto abierto  
-- JDK instalado  
-- Repositorio GitHub  
+## 4. README profesional
+
+El proyecto incluye:
+
+- README general en la raíz del repositorio  
+- README específicos por módulo en `/docs`  
+- Instrucciones de instalación, ejecución y estructura  
+- Explicación del propósito del proyecto  
+- Capturas y documentación adicional
+
+Este README (Entornos) explica específicamente cómo se cumplen los criterios del módulo.
+
+---
+
+## 5. Evidencia de trabajo continuado
+
+- Commits distribuidos en el tiempo
+- Avances progresivos por módulos
+- Integración de BD, XML, controladores y menú por consola
+- Refactorizaciones y mejoras continuas
+
+---
+
+## 6. Buenas prácticas
+
+El proyecto aplica buenas prácticas de desarrollo:
+
+- Nombres de clases y paquetes coherentes
+- Código limpio y comentado cuando es necesario
+- Separación clara entre lógica, datos y presentación
+- Uso de Maven para gestionar dependencias
+- Validaciones en controladores
+- Tests manuales y automáticos
+
+---
+
+## Conclusión
+
+Este documento demuestra que el proyecto RIPA cumple **todos los criterios de evaluación del módulo Entornos de Desarrollo**, siguiendo la rúbrica oficial y aplicando buenas prácticas de organización, control de versiones y documentación.
