@@ -24,9 +24,9 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 
 ## **2. Diagrama simple de clases**
 
-=
+
       Producto
-=
+
 - id
 - nombre
 - categoria
@@ -38,9 +38,9 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 + toString()
 
 
-=
+
     Supermercado
-=
+
 - id
 - nombre
 ----------------------
@@ -50,9 +50,9 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 + toString()
 
 
-=
+
    RegistroPrecio
-=
+
 - id
 - fecha
 - precio
@@ -64,9 +64,9 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 + toString()
 
 
-=
+
      ProductoDAO
-=
+
 + create(Producto)
 + findAll()
 + findById(int)
@@ -74,7 +74,7 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 + delete(int)
 
 
-=
+
    SupermercadoDAO
 =
 + create(Supermercado)
@@ -84,48 +84,48 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 + delete(int)
 
 
-=
+
    RegistroPrecioDAO
-=
+
 + create(RegistroPrecio)
 + findAll()
 + findByProducto(int)
 + delete(int)
 
 
-=
+
   ProductoController
-=
+
 + crearProductoConsola()
 + listarProductosConsola()
 + eliminarProductoConsola()
 
 
-=
+
  SupermercadoController
-=
+
 + crearSupermercadoConsola()
 + listarSupermercadosConsola()
 + eliminarSupermercadoConsola()
 
 
-=
+
  RegistroPrecioController
-=
+
 + crearRegistroConsola()
 + listarRegistrosConsola()
 + eliminarRegistroConsola()
 
 
-=
+
      XMLExporter
-=
+
 + exportarXML(String ruta)
 
 
-=
+
      XMLImporter
-=
+
 + importarXML(String ruta)
 
 ---
