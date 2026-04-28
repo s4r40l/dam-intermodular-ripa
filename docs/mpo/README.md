@@ -31,25 +31,25 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 - nombre
 - categoria
 - unidadMedida
-----------------------
+
 + getId()
 + getNombre()
 + setNombre()
 + toString()
 
-
+---------------------
 
     `Supermercado`
 
 - id
 - nombre
-----------------------
+
 + getId()
 + getNombre()
 + setNombre()
 + toString()
 
-
+------------------------
 
    `RegistroPrecio`
 
@@ -58,12 +58,12 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 - precio
 - producto
 - supermercado
-----------------------
+
 + getFecha()
 + getPrecio()
 + toString()
 
-
+-----------------------
 
      `ProductoDAO`
 
@@ -73,17 +73,17 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 + findByName(String)
 + delete(int)
 
-
+----------------------
 
    `SupermercadoDA`
-=
+
 + create(Supermercado)
 + findAll()
 + findById(int)
 + findByName(String)
 + delete(int)
 
-
+-----------------------
 
    `RegistroPrecioDAO`
 
@@ -92,7 +92,7 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 + findByProducto(int)
 + delete(int)
 
-
+------------------------
 
   `ProductoController`
 
@@ -100,7 +100,7 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 + listarProductosConsola()
 + eliminarProductoConsola()
 
-
+--------------------------
 
  `SupermercadoController`
 
@@ -108,7 +108,7 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 + listarSupermercadosConsola()
 + eliminarSupermercadoConsola()
 
-
+-------------------------
 
  `RegistroPrecioController`
 
@@ -116,13 +116,13 @@ Esta estructura separa responsabilidades y permite que cada parte del sistema ev
 + listarRegistrosConsola()
 + eliminarRegistroConsola()
 
-
+--------------------------
 
      `XMLExporter`
 
 + exportarXML(String ruta)
 
-
+-------------------------
 
      `XMLImporter`
 
