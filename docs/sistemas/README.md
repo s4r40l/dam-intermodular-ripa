@@ -160,3 +160,21 @@ Pasos:
 | IntelliJ no ejecuta | Invalidar cachés y reiniciar |
 
 ---
+
+## 7. Esquema del sistema
+
+flowchart TD
+
+    subgraph PC_Usuario["PC de Usuario (Windows 10/11)"]
+        IDE["IntelliJ IDEA\n(Java + Maven + JavaFX)"]
+        JDK["JDK 17+"]
+        App["Aplicación RIPA\n(JavaFX + JDBC)"]
+        XAMPP["XAMPP"]
+        MySQL["MySQL Server\n(puerto 3306)"]
+        phpMyAdmin["phpMyAdmin\n(http://localhost/phpmyadmin)"]
+    end
+
+    IDE --> App
+    App --> MySQL
+    XAMPP --> MySQL
+    XAMPP --> phpMyAdmin
