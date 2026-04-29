@@ -115,7 +115,7 @@ https://www.apachefriends.org/es/index.html
 Pasos:
 
 1. Abrir `MainApp.java` con IntelliJ  
-2. Pulsar **Run ▶️**  
+2. Pulsar **Run**  
 3. IntelliJ compila y ejecuta JavaFX + JDBC  
 4. La aplicación se inicia y se conecta a MySQL
 
