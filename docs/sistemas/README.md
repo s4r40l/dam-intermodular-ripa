@@ -39,7 +39,7 @@ RIPA es una aplicación de escritorio con persistencia local → PC de usuario e
 | CPU | Intel i5 o superior |
 | RAM | 8 GB |
 | Almacenamiento | 10 GB libres |
-| Periféricos | TAclado, ratón y Monitor 1080p para mejor visualización |
+| Periféricos | Teclado, ratón y Monitor 1080p para mejor visualización |
 
 **Coherencia con la aplicación:**  
 RIPA ejecuta Java, MySQL y un IDE (IntelliJ), por lo que los requisitos recomendados garantizan fluidez.
